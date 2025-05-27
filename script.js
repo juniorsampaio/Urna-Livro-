@@ -16,9 +16,9 @@ function votar(livro) {
 
   // Define a imagem correspondente
   const imagem = document.getElementById('imagemEscolhida');
-  if (livro === 'O Pequeno Príncipe') {
+  if (livro === 'CAPA 1') {
     imagem.src = 'pequeno_principe.jpg';
-  } else if (livro === 'Chapeuzinho Vermelho') {
+  } else if (livro === 'CAPA 2') {
     imagem.src = 'chapeuzinho_vermelho.jpg';
   }
 
