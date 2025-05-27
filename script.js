@@ -16,10 +16,10 @@ function votar(livro) {
 
   // Define a imagem correspondente
   const imagem = document.getElementById('imagemEscolhida');
-  if (livro === 'Capa 1') {
-    imagem.src = 'capa%201.jpg';  // espaço vira %20
-  } else if (livro === 'Capa 2') {
-    imagem.src = 'capa%202.jpg';  // espaço vira %20
+  if (livro === 'CAPA 1') {
+    imagem.src = 'pequeno_principe.jpg';  // espaço vira %20
+  } else if (livro === 'CAPA 2') {
+    imagem.src = 'chapeuzinho_vermelho.jpg';  // espaço vira %20
   }
 
   // Toca o áudio de agradecimento
