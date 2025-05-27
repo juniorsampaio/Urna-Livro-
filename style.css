@@ -1,0 +1,46 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff0f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #cc3366;
+  margin-bottom: 30px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.book {
+  cursor: pointer;
+  border: 3px solid #cc3366;
+  border-radius: 15px;
+  padding: 10px;
+  width: 180px;
+  background-color: #ffe6f0;
+  box-shadow: 3px 3px 8px rgba(204, 51, 102, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.book:hover {
+  transform: scale(1.1);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.book p {
+  font-weight: bold;
+  color: #cc3366;
+  margin-top: 12px;
+  font-size: 1.2em;
+}
